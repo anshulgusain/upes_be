@@ -10,7 +10,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://upes-8m5o.onrender.com'],
+  origin: ['http://localhost:3000', 'https://upes-portal.onrender.com'],
   credentials: true,
 }));
 app.use(express.json());
