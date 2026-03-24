@@ -9,8 +9,8 @@ const seedStudent = async () => {
   await Student.deleteMany({});
 
   const student = new Student({
-    sapId: '500123456',
-    password: 'Upes@2024',
+    sapId: 'amisha2026',
+    password: 'amisha@sajwan',
     name: 'Amisha Sajwan',
     email: 'amisha.sajwan@dehradun.upes.ac.in',
     phone: '+91 98765 43210',
